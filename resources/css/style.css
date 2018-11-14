@@ -1,0 +1,109 @@
+html {
+  font-family: helvetica, sans-serif;
+}
+
+header,
+footer {
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg');
+}
+
+nav {
+  display: table;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  margin: 0px;
+}
+
+h2 {
+  background-color: mediumpurple;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  margin: 0px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 0px;
+  padding-top: 12px;
+}
+
+span {
+  font-weight: bold;
+  color: blue;
+}
+
+#brushes h2 {
+  background-color: mediumspringgreen;
+}
+
+#frames h2 {
+  background-color: lightcoral;
+}
+
+#paint h2 {
+  background-color: skyblue;
+}
+
+#shipping h2 {
+  background-color: orchid;
+}
+
+ul.horizontal-list {
+  min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+}
+
+  ul.horizontal-list li {
+  		display: inline;
+  	}
+
+.white-button a {
+  background-color: white;
+  padding: 15px;
+  opacity: 0.75;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.back-to-top {
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+/* Position product image to the left */
+.product img {
+  float: left;
+  margin-right: 12px;
+}
+
+/* Position product title to the left */
+.product h3 {
+  position: relative;
+}
+
+.copyright {
+  text-align: center;
+  color: khaki;
+  font-weight: bold;
+}
+
+.copyright a {
+  color: gold;
+}
+
+.clear {
+  clear: both;
+}
